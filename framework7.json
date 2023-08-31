@@ -1,0 +1,32 @@
+{
+  "cwd": "E:\\Kumpulan Project Vs code\\Maxy Academy\\Day 8\\framework7 day 8",
+  "type": [
+    "web",
+    "cordova"
+  ],
+  "name": "App Latihan",
+  "pkg": "io.applatihan.app",
+  "framework": "react",
+  "template": "tabs",
+  "cssPreProcessor": false,
+  "bundler": "vite",
+  "cordova": {
+    "folder": "cordova",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "plugins": [
+      "cordova-plugin-statusbar",
+      "cordova-plugin-keyboard",
+      "cordova-plugin-splashscreen"
+    ]
+  },
+  "theming": {
+    "customColor": false,
+    "color": "#007aff",
+    "darkMode": false,
+    "iconFonts": true
+  },
+  "customBuild": false
+}
